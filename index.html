@@ -6,10 +6,13 @@
   </head>
 
   <!-- Frameset utama: Header - Konten - Footer -->
-  <frameset rows="100px,*,60px" border="2">
+  <frameset rows="100px,50px,*,60px" border="2">
 
     <!-- Header -->
     <frame src="header.html" name="headerFrame" scrolling="no" noresize>
+
+    <!-- Menu Navbar (di bawah header) -->
+    <frame src="menu.html" name="menu" scrolling="no" noresize>
 
     <!-- Area Tengah dibagi 3 kolom -->
     <frameset cols="250px,*,250px" border="2">
@@ -18,7 +21,7 @@
       <frame src="left.html" name="leftFrame">
 
       <!-- Tengah (Main Content) -->
-      <frame src="home.html" name="mainContent">
+      <frame src="https://portfolio-syahrul-mubaroq.vercel.app/" name="mainContent">
 
       <!-- Kanan (Materi Pembelajaran) -->
       <frame src="right.html" name="rightFrame">
@@ -30,3 +33,4 @@
 
   </frameset>
 </html>
+
